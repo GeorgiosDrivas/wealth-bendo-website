@@ -2,7 +2,7 @@
 
 Work - In - Progress
 
-This is a free design template from Webflow.io, to showcase design-to-website skills.
+This is a free design template from Webflow.io, to showcase design-to-code skills.
 
 # Tech stack
 
