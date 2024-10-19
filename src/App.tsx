@@ -1,5 +1,6 @@
 import "./App.css";
 import Brands from "./components/brands";
+import Experts from "./components/experts";
 import Features from "./components/features";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -7,18 +8,21 @@ import Header from "./components/header";
 function App() {
   return (
     <>
-      <main id="header">
+      <section id="header">
         <Header />
-      </main>
-      <main id="brands">
+      </section>
+      <section id="brands">
         <Brands />
-      </main>
-      <main id="features" className="mb-5">
+      </section>
+      <section id="features" className="mb-5">
         <Features />
-      </main>
-      <main id="footer">
+      </section>
+      <section id="experts" className="pt-5">
+        <Experts />
+      </section>
+      <section id="footer">
         <Footer />
-      </main>
+      </section>
     </>
   );
 }

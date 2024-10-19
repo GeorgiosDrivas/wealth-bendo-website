@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
           <div className="col-6">
             <div className="d-flex justify-content-between align-items-center">
-              <p>Powered By Webflow Built By Rick Mummery</p>
+              <p>Powered By Webflow</p>
               <p>Built By Rick Mummery</p>
             </div>
           </div>
