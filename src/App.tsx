@@ -17,7 +17,7 @@ function App() {
       <section id="features" className="mb-5">
         <Features />
       </section>
-      <section id="experts" className="pt-5">
+      <section id="experts" className="py-5 mb-5">
         <Experts />
       </section>
       <section id="footer">

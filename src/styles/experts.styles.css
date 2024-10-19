@@ -21,3 +21,24 @@
   height: 99px;
   z-index: 9999;
 }
+
+.button {
+  border: none;
+  border-radius: 40px;
+  background-color: #050505;
+  color: whitesmoke;
+  padding: 10px 50px;
+}
+
+.experts-content h2 {
+  font-size: 4.44vw;
+}
+
+.experts-symbol {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 7px;
+  background-color: #dbec62;
+  border-radius: 50%;
+}
