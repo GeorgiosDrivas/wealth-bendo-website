@@ -1,19 +1,20 @@
 import "./App.css";
+import Brands from "./components/brands";
 import Footer from "./components/footer";
 import Header from "./components/header";
 
 function App() {
   return (
     <>
-      <section
-        id="header"
-        className="d-flex justify-content-center align-items-center"
-      >
+      <main id="header">
         <Header />
-      </section>
-      <section id="footer">
+      </main>
+      <main id="brands">
+        <Brands />
+      </main>
+      <main id="footer">
         <Footer />
-      </section>
+      </main>
     </>
   );
 }
