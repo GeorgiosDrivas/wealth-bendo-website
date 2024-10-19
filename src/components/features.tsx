@@ -5,13 +5,12 @@ export default function Features() {
     <>
       <div className="container h-100">
         <div className="row px-5 h-100">
-          <div className="col-6 p-0">
+          <div className="col-6 d-flex justify-content-end">
             <div id="left-feature" className="d-grid">
-              <div className="d-flex justify-content-center align-items-center">
+              <div className="px-5 d-flex align-items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="150"
-                  height="150"
+                  className="feature-svg"
                   viewBox="0 0 321 342"
                   fill="none"
                 >
@@ -20,8 +19,8 @@ export default function Features() {
                     fill="#050505"
                   />
                 </svg>
-                <h2>
-                  2X <br /> SPY
+                <h2 id="feature-heading-2">
+                  2X <br /> <span>SPY</span>
                 </h2>
               </div>
               <div id="left-feature-p" className="align-self-end">
@@ -33,32 +32,38 @@ export default function Features() {
           </div>
           <div className="col-6 p-0">
             <div id="feature-right" className="h-100">
-              <div className="row">
+              <div className="row h-100">
                 <div className="col-6">
                   <div
                     id="right-feature-one"
-                    className="whitesmoke right-top-feature h-100"
+                    className="whitesmoke right-top-feature h-100 d-flex justify-content-evenly align-items-start flex-column"
                   >
-                    <p>Returns</p>
-                    <b>114%</b>
+                    <p className="text-uppercase">Returns</p>
+                    <p className="text-uppercase bold-text">
+                      <b>
+                        114<span>%</span>
+                      </b>
+                    </p>
                   </div>
                 </div>
                 <div className="col-6">
                   <div
                     id="right-feature-one"
-                    className="whitesmoke right-top-feature h-100"
+                    className="whitesmoke right-top-feature h-100 d-flex justify-content-evenly align-items-start flex-column"
                   >
-                    <p>Capture</p>
-                    <b>Gains</b>
+                    <p className="text-uppercase">Capture</p>
+                    <p className="text-uppercase bold-text">
+                      <b>Gains</b>
+                    </p>
                   </div>
                 </div>
                 <div className="col-12">
                   <div
                     id="right-feature-one"
-                    className="black-bg right-bottom-feature h-100 mt-3"
+                    className="black-bg right-bottom-feature h-100 mt-3 d-grid"
                   >
                     Real time
-                    <p className="text-uppercase text-center">
+                    <p className="text-uppercase text-center align-self-end">
                       Alerts to safely participate in the market
                     </p>
                   </div>

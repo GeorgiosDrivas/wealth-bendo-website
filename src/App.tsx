@@ -13,7 +13,7 @@ function App() {
       <main id="brands">
         <Brands />
       </main>
-      <main id="features">
+      <main id="features" className="mb-5">
         <Features />
       </main>
       <main id="footer">
