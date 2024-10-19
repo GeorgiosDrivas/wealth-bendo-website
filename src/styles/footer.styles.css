@@ -1,0 +1,20 @@
+#footer {
+  background-color: #050505;
+  color: whitesmoke;
+}
+
+.footer-logo {
+  filter: invert();
+}
+
+#socials {
+  width: 70px;
+}
+
+#socials a img {
+  filter: invert();
+  min-width: 1.1vw;
+  max-width: 1.1vw;
+  min-height: 1.1vw;
+  max-height: 1.1vw;
+}
