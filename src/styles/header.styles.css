@@ -1,0 +1,12 @@
+#header-wrap {
+  height: 7.8vw;
+}
+
+#logo img {
+  min-height: 2.22vw;
+  max-height: 2.22vw;
+}
+
+#header-nav {
+  list-style-type: none;
+}
