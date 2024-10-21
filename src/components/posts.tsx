@@ -123,6 +123,27 @@ export default function Posts() {
             </div>
           </div>
         </div>
+        <div className="row mt-5">
+          <div className="col-12">
+            <div className="posts-button text-center">
+              <button className="text-uppercase position-relative">
+                View All
+                <div className="btn-arrow-bg position-absolute"></div>
+                <svg
+                  className="position-absolute btn-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 14 14"
+                  fill="#fff"
+                >
+                  <path
+                    d="M1.9 13.5L0.5 12.1L10.1 2.5H1.5V0.5H13.5V12.5H11.5V3.9L1.9 13.5Z"
+                    fill="#fff"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
