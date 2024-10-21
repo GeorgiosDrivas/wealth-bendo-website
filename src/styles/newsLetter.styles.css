@@ -1,0 +1,49 @@
+#news {
+  background-color: #dbec62;
+  min-height: 600px;
+}
+
+.news-wrap {
+  background-image: url("/assets/news-bg.png");
+  background-size: cover;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 775px;
+  margin-top: -310px;
+  border-radius: 40px;
+  box-shadow: 0 1.11vw 2.22vw #0000001a;
+}
+
+.news-wrap h2 {
+  font-size: 4vw;
+}
+
+.news-wrap p {
+  font-size: 1.07vw;
+}
+
+.news-inputs-wrap {
+  width: 40%;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 160px;
+}
+
+.newsletter-input {
+  background-color: #050505;
+  width: 100%;
+  border: none;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.news-input-btn {
+  position: absolute;
+  top: 5px;
+  right: 14px;
+  background-color: #dbec62;
+  border: none;
+  padding: 15px 36px;
+  border-radius: 10px;
+}

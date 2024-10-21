@@ -4,6 +4,7 @@ import Experts from "./components/experts";
 import Features from "./components/features";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import NewsLetter from "./components/newsLetter";
 import Posts from "./components/posts";
 
 function App() {
@@ -21,8 +22,11 @@ function App() {
       <section id="experts" className="py-5 mb-5">
         <Experts />
       </section>
-      <section id="posts" className="py-5">
+      <section id="posts" className="pt-5">
         <Posts />
+      </section>
+      <section id="news">
+        <NewsLetter />
       </section>
       <section id="footer">
         <Footer />
