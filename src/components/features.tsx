@@ -3,10 +3,10 @@ import "../styles/features.styles.css";
 export default function Features() {
   return (
     <>
-      <div className="container h-100">
-        <div className="row px-5 h-100">
+      <div className="container px-5 h-100">
+        <div className="row h-100">
           <div className="col-6 d-flex justify-content-end">
-            <div id="left-feature" className="d-grid">
+            <div id="left-feature" className="d-grid h-100 w-100">
               <div className="px-5 d-flex align-items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export default function Features() {
           <div className="col-6 p-0">
             <div id="feature-right" className="h-100">
               <div className="row h-100">
-                <div className="col-6">
+                <div className="col-6 pb-4">
                   <div
                     id="right-feature-one"
                     className="whitesmoke right-top-feature h-100 d-flex justify-content-evenly align-items-start flex-column"
@@ -46,7 +46,7 @@ export default function Features() {
                     </p>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-6 pb-4">
                   <div
                     id="right-feature-one"
                     className="whitesmoke right-top-feature h-100 d-flex justify-content-evenly align-items-start flex-column"
@@ -60,7 +60,7 @@ export default function Features() {
                 <div className="col-12">
                   <div
                     id="right-feature-one"
-                    className="black-bg right-bottom-feature h-100 mt-3 d-grid"
+                    className="black-bg right-bottom-feature h-100 d-grid"
                   >
                     Real time
                     <p className="text-uppercase text-center align-self-end">

@@ -3,7 +3,7 @@ import "../styles/header.styles.css";
 export default function Header() {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid px-5">
         <div className="row">
           <div className="col-6">
             <div id="logo">

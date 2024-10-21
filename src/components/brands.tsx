@@ -3,7 +3,7 @@ import "../styles/brands.styles.css";
 export default function Brands() {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid px-5">
         <div className="row">
           <div className="col-12">
             <div className="brands-wrap d-flex justify-content-between align-items-center">
