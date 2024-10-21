@@ -52,3 +52,48 @@
   font-weight: 400;
   line-height: 1.44vw;
 }
+
+.single-post h4 {
+  font-size: 2vw;
+  line-height: 3vw;
+}
+.single-post-img {
+  border-radius: 20px;
+  height: 25vw;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+}
+
+.single-post img {
+  width: 100%;
+  height: 100%;
+}
+
+.single-post .author_img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.author-name h5 {
+  font-size: 1vw;
+}
+
+.author-name::after {
+  content: "";
+  position: absolute;
+  top: 27px;
+  right: 28px;
+  background-color: whitesmoke;
+  width: 44px;
+  height: 1px;
+}
+
+.category {
+  background-color: #dbec62;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #050505;
+  border-radius: 40px;
+}
