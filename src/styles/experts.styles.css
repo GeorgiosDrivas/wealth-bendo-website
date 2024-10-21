@@ -27,7 +27,7 @@
   border-radius: 40px;
   background-color: #050505;
   color: whitesmoke;
-  padding: 10px 50px;
+  padding: 13px 63px;
 }
 
 .experts-content h2 {
@@ -41,4 +41,20 @@
   margin-right: 7px;
   background-color: #dbec62;
   border-radius: 50%;
+}
+
+.btn-svg {
+  top: 17px;
+  right: 19px;
+  width: 17px;
+  height: 17px;
+}
+
+.btn-arrow-bg {
+  top: 2px;
+  right: 5px;
+  width: 45px;
+  height: 45px;
+  background-color: #dbec62;
+  border-radius: 50px;
 }

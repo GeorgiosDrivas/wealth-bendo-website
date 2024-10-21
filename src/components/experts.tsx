@@ -34,7 +34,21 @@ export default function Experts() {
                 Leverage cutting-edge technology and in-depth market <br />
                 knowledge to identify potential trading opportunities
               </p>
-              <button className="text-uppercase button">Explore</button>
+              <button className="text-uppercase button position-relative">
+                Explore
+                <div className="btn-arrow-bg position-absolute"></div>
+                <svg
+                  className="position-absolute btn-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                >
+                  <path
+                    d="M1.9 13.5L0.5 12.1L10.1 2.5H1.5V0.5H13.5V12.5H11.5V3.9L1.9 13.5Z"
+                    fill="#1C1B1F"
+                  />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
