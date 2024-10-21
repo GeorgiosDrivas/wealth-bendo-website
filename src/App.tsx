@@ -4,6 +4,7 @@ import Experts from "./components/experts";
 import Features from "./components/features";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import Posts from "./components/posts";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </section>
       <section id="experts" className="py-5 mb-5">
         <Experts />
+      </section>
+      <section id="posts" className="py-5">
+        <Posts />
       </section>
       <section id="footer">
         <Footer />
